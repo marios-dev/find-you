@@ -1,0 +1,108 @@
+
+/* Ribbon */
+.ribbon-text {
+  width: 230px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #80E0DD;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: -5px;
+  left: -160px;
+  &:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 16px 0 0;
+    border-color: #63c5c2 transparent transparent transparent;
+  }
+  h3 {
+    color: @white;
+    position: relative;
+    font-size: 24px;
+    &:after,
+    &:before {
+      content: '';
+      position: absolute;
+      right: calc(100% - 1px);
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0 24px 24px;
+      border-color: transparent transparent #80E0DD transparent;
+    }
+    &:before {
+      bottom: auto;
+      top: 0;
+      border-width: 0 24px 24px 0;
+      border-color: transparent #80E0DD transparent transparent;
+    }
+  }
+}
+
+.pricing-ribbon {
+  width: 140px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background: @blue;
+  color: @white;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 49px;
+  right: 0px;
+  &:after,
+  &:before {
+    content: '';
+    position: absolute;
+    right: calc(100% - 1px);
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 21px 21px;
+    border-color: transparent transparent #80E0DD transparent;
+  }
+  &:before {
+    bottom: auto;
+    top: 0;
+    border-width: 0 21px 21px 0;
+    border-color: transparent #80E0DD transparent transparent;
+  }
+}
+
+
+@media only screen and (max-width: 1360px) {
+  .ribbon-text {
+    left: auto;
+    right: 0;
+    width: 160px;
+    top: -39px;
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ribbon-text {
+    right: auto;
+    left: -30px;
+    top: -8px;
+    width: 140px;
+    height: 38px;
+    line-height: 39px;
+    &:before {
+      border-width: 10px 10px 0 0;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+}

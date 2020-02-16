@@ -1,0 +1,115 @@
+/* Import fonts */
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url('../assets/fonts/avenir-lts-td-roman.woff') format('woff'),
+       url('../assets/fonts/avenir-lts-td-roman.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-light-webfont.woff2') format('woff2'),
+       url('../assets/fonts/rubik-light-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-regular-webfont.woff2') format('woff2'),
+       url('../assets/fonts/rubik-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-medium-webfont.woff2') format('woff2'),
+       url('../assets/fonts/rubik-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-bold-webfont.woff2') format('woff2'),
+       url('../assets/fonts/rubik-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Reset defaults */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: @white;
+  font-family: 'Rubik';
+  color: @sapphire;
+  &:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(12,28,39,0.75);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s ease, visibility .4s ease;
+    transition-delay: 0.35s;
+    z-index: 997;
+  }
+  &.dimmed {
+    &:before {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: @dark-blue;
+  font-family: 'Avenir Roman', Sans-Serif;
+  font-weight: 400;
+}
+
+h1 { font-size: 60px; }
+h2 { font-size: 40px; }
+h3 { font-size: 28px; }
+h4 { font-size: 22px; }
+h5 { font-size: 19px; }
+h6 { font-size: 16px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+a {
+  color: @blue;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 { font-size: 40px; }
+  h2 { font-size: 34px; }
+  h3 { font-size: 24px; }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 30px; }
+  h3 { font-size: 23px; }
+  p { font-size: 15px; line-height: 1.6em; }
+
+  body {
+    font-size: 15px;
+  }
+}

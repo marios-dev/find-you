@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580.683" height="486.816" viewBox="0 0 580.683 486.816">
+  <g id="Group_1153" data-name="Group 1153" transform="translate(-1024.448 -2089.099)">
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="185.768" cy="185.768" r="185.768" transform="translate(1100.185 2155.373)" fill="#eff8ff"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="150.902" cy="150.902" r="150.902" transform="translate(1135.051 2190.238)" fill="#eef9ff"/>
+    <path id="Path_2064" data-name="Path 2064" d="M1282.683,640.268c6.265,4.358,8.716-7.354,8.716-15.254,10.623,1.634,15.744-8.64,15.744-8.64-6.439-4.958-12.7-8.88-17.378-9.882-6.134-1.318-11.2-.076-13.979,3.465l-.033.033C1271.646,615.274,1272.6,625.635,1282.683,640.268Z" transform="translate(-154.25 1746.579)" fill="#b1ea8c" stroke="#002e4e" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_2065" data-name="Path 2065" d="M1302.926,716.45c6.363,9.8,16.768,19.9,33.231,29.418" transform="translate(-151.613 1756.471)" fill="none" stroke="#002e4e" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_2066" data-name="Path 2066" d="M1304.376,615.52c14.567,11.2,30.017,27.707,30.017,27.707" transform="translate(-151.483 1747.433)" fill="#ef7f65" stroke="#002e4e" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_2067" data-name="Path 2067" d="M1270.732,651.923c10.9,27.239,9.261,26.694,6.81,36.5s-4.086,34.876,28.6,37.589c-19.111-29.429-1.634-56.112-1.634-56.112s-4.358-5.448-21.246-29.963c-10.078-14.633-11.037-24.994-6.93-30.279C1275.515,610.434,1260.119,625.4,1270.732,651.923Z" transform="translate(-154.829 1746.909)" fill="#b1ea8c" stroke="#002e4e" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="2.179" cy="2.179" r="2.179" transform="translate(1140.135 2390.17)" fill="#002e4e"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="2.179" cy="2.179" r="2.179" transform="translate(1151.671 2378.635)" fill="#002e4e"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="234.253" cy="234.253" r="234.253" transform="translate(1051.7 2106.888)" fill="none" stroke="#002e4e" stroke-miterlimit="10" stroke-width="1.044" stroke-dasharray="6.262"/>
+    <rect id="Rectangle_448" data-name="Rectangle 448" width="210.067" height="416.207" rx="10.333" transform="translate(1180.919 2090)" fill="#fff" stroke="#002e4e" stroke-miterlimit="10" stroke-width="1.802"/>
+    <rect id="Rectangle_449" data-name="Rectangle 449" width="192.398" height="347.72" rx="4" transform="translate(1189.754 2120.43)" fill="none" stroke="#002e4e" stroke-miterlimit="10" stroke-width="1.784"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="9.269" cy="9.269" r="9.269" transform="translate(1278.647 2479.161)" fill="none" stroke="#a6b7bc" stroke-miterlimit="10" stroke-width="1"/>
+    <text id="Sign_Up" data-name="Sign Up" transform="translate(1284.103 2208.444)" fill="#002e4e" font-size="25" font-family="ArialMT, Arial" letter-spacing="0.06em"><tspan x="-48.97" y="0">Sign Up</tspan></text>
+    <g id="Group_336" data-name="Group 336" transform="translate(1206.442 2260.214)">
+      <line id="Line_18" data-name="Line 18" x2="159.022" transform="translate(0 22.183)" fill="none" stroke="#e8edef" stroke-miterlimit="10" stroke-width="1.802"/>
+      <text id="Name" transform="translate(0 11)" fill="#a6b7bc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">Name</tspan></text>
+    </g>
+    <g id="Group_337" data-name="Group 337" transform="translate(1206.442 2308.154)">
+      <line id="Line_19" data-name="Line 19" x2="159.022" transform="translate(0 22.183)" fill="none" stroke="#e8edef" stroke-miterlimit="10" stroke-width="1.802"/>
+      <text id="Email_Address" data-name="Email Address" transform="translate(0 11)" fill="#a6b7bc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">Email Address</tspan></text>
+    </g>
+    <g id="Group_338" data-name="Group 338" transform="translate(1206.442 2356.094)">
+      <line id="Line_20" data-name="Line 20" x2="159.022" transform="translate(0 22.183)" fill="none" stroke="#e8edef" stroke-miterlimit="10" stroke-width="1.802"/>
+      <text id="Password" transform="translate(0 11)" fill="#a6b7bc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">Password</tspan></text>
+    </g>
+    <rect id="Rectangle_450" data-name="Rectangle 450" width="157.984" height="27.239" rx="12.5" transform="translate(1210.593 2409.806)" fill="#ef7f65" opacity="0.3"/>
+    <line id="Line_21" data-name="Line 21" x2="28.328" transform="translate(1271.789 2105.254)" fill="#a6b7bc" stroke="#a6b7bc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <rect id="Rectangle_451" data-name="Rectangle 451" width="183.044" height="114.947" rx="13.167" transform="translate(1421.602 2277.402)" fill="#fff" stroke="#002e4e" stroke-miterlimit="10" stroke-width="0.971"/>
+    <line id="Line_22" data-name="Line 22" x2="135.83" transform="translate(1445.208 2307.546)" fill="none" stroke="#a6b7bc" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_23" data-name="Line 23" x2="102.054" transform="translate(1462.641 2329.337)" fill="none" stroke="#a6b7bc" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_452" data-name="Rectangle 452" width="88.253" height="23.97" rx="11" transform="translate(1479.711 2351.692)" fill="#80e0dd" opacity="0.25"/>
+    <path id="Path_2068" data-name="Path 2068" d="M1316.412,692.1c-7.188,0-12.507-.4-14.083-.539l1.3-15.2h0c12.325,1.043,37.217,6.774,49.217-4.658l10.52,11.046C1350.029,695.449,1333.062,692.1,1316.412,692.1Z" transform="translate(-151.666 1752.464)" fill="#fff"/>
+    <path id="Path_2069" data-name="Path 2069" d="M1305.254,652.4s11.708,0,8.984-7.9" transform="translate(-151.404 1750.028)" fill="none" stroke="#002e4e" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_453" data-name="Rectangle 453" width="157.984" height="27.239" rx="12.5" transform="translate(1206.961 2405.969)" fill="#ef7f65"/>
+    <text id="Create_One" data-name="Create One" transform="translate(1283.446 2422.53)" fill="#fff" font-size="11" font-family="ArialMT, Arial"><tspan x="-28.432" y="0">Create One</tspan></text>
+    <path id="Path_2070" data-name="Path 2070" d="M1302.926,683.957s47.668,4.086,64.828-12.257" transform="translate(-151.613 1752.464)" fill="none" stroke="#002e4e" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_454" data-name="Rectangle 454" width="88.253" height="23.97" rx="11" transform="translate(1476 2348.946)" fill="#80e0dd"/>
+    <text id="Comfirm" transform="translate(1520 2363.947)" fill="#fff" font-size="9" font-family="ArialMT, Arial"><tspan x="-16.998" y="0">Comfirm</tspan></text>
+    <g id="Group_340" data-name="Group 340" transform="translate(1025.188 2119.341)">
+      <g id="Group_339" data-name="Group 339">
+        <rect id="Rectangle_455" data-name="Rectangle 455" width="176.507" height="61.015" rx="13.167" transform="translate(0 0.106)" fill="#fff" stroke="#002e4e" stroke-miterlimit="10" stroke-width="1.48"/>
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="20.701" cy="20.701" r="20.701" transform="translate(11.812 9.659)" fill="#80e0dd"/>
+        <text id="Upload_Image" data-name="Upload Image" transform="translate(62.13 34.606)" fill="#a6b7bc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">Upload Image</tspan></text>
+      </g>
+    </g>
+    <g id="cloud-computing" transform="translate(1047.805 2140.986)">
+      <path id="Path_3548" data-name="Path 3548" d="M16.471,5.136a6.382,6.382,0,0,0-12.516,0,4.467,4.467,0,0,0,.514,8.9H7.66a.638.638,0,1,0,0-1.276H4.469a3.191,3.191,0,1,1,.038-6.382.638.638,0,0,0,.634-.568,5.105,5.105,0,0,1,10.143,0,.676.676,0,0,0,.672.568,3.191,3.191,0,1,1,0,6.382H12.765a.638.638,0,0,0,0,1.276h3.191a4.467,4.467,0,0,0,.515-8.9Zm0,0" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_3549" data-name="Path 3549" d="M177.832,195.953a.638.638,0,0,0,.918-.887l-.016-.016-2.706-2.707a.638.638,0,0,0-.9,0h0l-2.706,2.707a.638.638,0,1,0,.887.918l.016-.016,1.618-1.618v8.032a.638.638,0,1,0,1.276,0v-8.032Zm0,0" transform="translate(-165.364 -184.501)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+
+/* Download Options */
+.download-options {
+  display: flex;
+  align-items: center;
+  &-links {
+    margin-left: 80px;
+    display: flex;
+    a {
+      display: block;
+      + a {
+        margin-left: 25px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .download-options {
+    flex-direction: column;
+    align-items: start;
+    &-links {
+      margin: 10px 0 0 0;
+      a + a {
+        margin-left: 10px;
+      }
+    }
+  }
+}

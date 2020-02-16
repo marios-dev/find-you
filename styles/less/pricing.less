@@ -1,0 +1,143 @@
+/* Pricing */
+.pricing {
+  padding: 60px 0 120px 0;
+}
+.pricing-boxes {
+  display: flex;
+}
+
+.pricing-box {
+  width: 50%;
+  border: 1px solid @light-grey;
+  border-radius: 6px;
+  position: relative;
+  &:nth-child(1) {
+    margin-right: 40px;
+  }
+  &:nth-child(2) {
+    margin-left: 40px;
+  }
+  .pricing-top {
+    padding: 40px 40px 30px 40px  ;
+    border-bottom: 1px solid @light-grey;
+  }
+  .pricing-bottom {
+    padding: 30px 40px;
+  }
+
+  .pricing-illustration {
+    margin-bottom: 15px;
+  }
+  .pricing-tag {
+    em {
+      font-style: normal;
+      font-size: 24px;
+      position: relative;
+      top: -7px;
+      margin-right: 3px;
+    }
+    small {
+      position: relative;
+      font-size: 18px;
+      margin-left: 2px;
+    }
+  }
+  .pricing-list {
+    margin-bottom: 40px;
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        + li {
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+  .pricing-buttons {
+    .link-regular {
+      margin-left: 15px;
+    }
+  }
+  &.business {
+    .pricing-ribbon {
+      background: @orange;
+      &:after {
+        border-color: transparent transparent @orange transparent;
+      }
+      &:before {
+        border-color: transparent @orange transparent transparent;
+      }
+    }
+    .button-pill {
+      background: @orange;
+      &:hover {
+        background: darken(@orange, 5%);
+      }
+    }
+    .link-regular {
+      color: @orange;
+      &:hover {
+        color: darken(@orange, 15%);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .pricing-box {
+    &:nth-child(1) {
+      margin-right: 10px;
+    }
+    &:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .pricing-box {
+    .pricing-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .link-regular {
+        margin: 12px 0 0 8px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pricing {
+    padding: 40px 0 20px 0;
+    border-top: 1px solid @light-grey;
+  }
+  .pricing-boxes {
+    flex-direction: column;
+    .pricing-box {
+      width: 100%;
+      &:nth-child(1),
+      &:nth-child(2) {
+        margin: 0;
+      }
+      + .pricing-box {
+        margin-top: 20px;
+      }
+      .pricing-top {
+        padding: 20px;
+      }
+      .pricing-bottom {
+        padding: 20px;
+      }
+      .pricing-ribbon {
+        width: 90px;
+        height: 32px;
+        line-height: 32px;
+        top: 28px;
+        right: -10px;
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.bg-icons {
+  .bg-icons-left,
+  .bg-icons-right {
+    position: absolute;
+    top: 5%;
+    height: 380px;
+    left: 0;
+    width: 30%;
+    img {
+      position: absolute;
+    }
+    img:nth-child(1) { top: 45%; left: 3%; }
+    img:nth-child(2) { top: 15%; left: 18%; }
+    img:nth-child(3) { top: 65%; left: 21%; }
+    img:nth-child(4) { top: 40%; left: 44%; }
+    img:nth-child(5) { top: 18%; left: 60%; }
+    img:nth-child(6) { top: 40%; left: 75%; }
+  }
+  .bg-icons-right {
+    left: auto;
+    right: 0;
+    img:nth-child(1) { top: 45%; left: 18%; }
+    img:nth-child(2) { top: 28%; left: 32%; }
+    img:nth-child(3) { top: 8%; left: 52%; }
+    img:nth-child(4) { top: 50%; left: 53%; }
+    img:nth-child(5) { top: 33%; left: 75%; }
+    img:nth-child(6) { top: 10%; left: 90%; }
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .bg-icons {
+    display: none;
+  }
+}

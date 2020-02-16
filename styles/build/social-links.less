@@ -1,0 +1,22 @@
+/* Social links */
+.social-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  li {
+    transition: transform .2s ease;
+    position: relative;
+    &:hover {
+      transform: translateY(-5px);
+    }
+    + li {
+      margin-left: 25px;
+    }
+    a {
+      img {
+        height: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+/* Hero section */
+.hero {
+  padding: 80px 0;
+  position: relative;
+  .hero-content {
+    max-width: 640px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    background: @white;
+    position: relative;
+    z-index: 1;
+    h1 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 35px;
+    }
+  }
+  .hero-illustration {
+    margin: 0 auto;
+    max-width: 75%;
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding: 50px 0;
+    .hero-content {
+      p {
+        margin-bottom: 25px;
+      }
+    }
+    .hero-illustration {
+      max-width: 100%;
+    }
+  }
+}
